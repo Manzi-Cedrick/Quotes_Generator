@@ -15,6 +15,12 @@ body{
 .long-quote {
     font-size:2em;
 }
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 5rem;
+    gap: 0 2rem;
+}
 .loader{
     position:absolute;
     top: 35%;
