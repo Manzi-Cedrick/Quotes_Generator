@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="./tailwind.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/954941076f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container contains bg-slate-900 m-auto shadow-2xl drop-shadow-xl text-white px-10 pt-2 relative">
+        <span class="text-7xl"><i class="fa-solid fa-quote-left"></i></span>
+        <div class="text-center">
+        <span class="quotes font-sans ml-4 text-3xl text-center">No matter how random life might seem to be sometimes, we can always find a way to make others smile.
+        If you like these random quotes, you should check out these feel good quotes and good vibes quotes too</span>
+        </div>
+        <span class="text-green-500 text-xl float-right font-serif author">Manzi Cedrick</span>
+        <div class="btns absolute bottom-10">
+            <button class="twitter bg-slate-500 h-10 w-14 text-white text-2xl ml-10 hover:text-blue-600"><i class="fa-brands fa-twitter hover:text-blue-600"></i></button>
+            <button class="LinkedIn bg-slate-500 h-10 w-14 text-white text-2xl ml-2"><i class="fa-brands fa-linkedin"></i></button>
+            <button class="changebg  bg-slate-500 text-white h-10 w-44 ml-44">Change Background</button>
+            <button class="newquote  bg-slate-500 h-10 w-32 text-white ml-44">New Quote</button>
+        </div>
+    </div>
+<div class="loader hidden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+    <script src="./quote.js"></script>
+    <script src="./background.js"></script>
+</body>
+</html>
